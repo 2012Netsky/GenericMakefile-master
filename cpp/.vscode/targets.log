@@ -1,0 +1,568 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Jul  8 22:59:23 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+QTDIR = /opt/Qt5.12.2/5.12.2/gcc_64
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 52)
+INSTALL = install
+# makefile (from 'Makefile', line 19)
+INCLUDES = -I $(SRC_PATH)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/sever/下载/GenericMakefile-master/cpp
+# makefile (from 'Makefile', line 48)
+SHELL = /bin/bash
+# environment
+SNAP_DATA = /var/snap/code/99
+# makefile (from 'Makefile', line 63)
+V := false
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/home/sever/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/home/sever/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/sever/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/home/sever/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:34054
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = sever
+# makefile (from 'Makefile', line 87)
+SOURCES = $(shell find $(SRC_PATH) -name '*.$(SRC_EXT)' -printf '%T@\t%p\n' | sort -k 1nr | cut -f2-)
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 116)
+END_TIME = read st < $(TIME_FILE) ; $(RM) $(TIME_FILE) ; st=$$((`date '+%s'` - $$st - 86400)) ; echo `date -u -d @$$st '+%H:%M:%S'`
+# environment
+_ = /snap/code/99/usr/share/code/code
+# environment
+MANAGERPID = 890
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/sever
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/sever/miniconda3/bin:/home/sever/miniconda3/condabin:/opt/Qt5.12.2/5.12.2/gcc_64/bin:/opt/Qt5.12.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin:/home/sever/.local/bin/
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/sever-H81:@/tmp/.ICE-unix/1206,unix/sever-H81:/tmp/.ICE-unix/1206
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/sever/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/99
+# makefile (from 'Makefile', line 13)
+COMPILE_FLAGS = -std=c++11 -Wall -Wextra -g
+# makefile (from 'Makefile', line 9)
+SRC_PATH = .
+# environment
+SNAP_VERSION = 30d9c6cd
+# environment
+CONDA_PREFIX = /home/sever/miniconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 63b365bc16e44fa88b2a66ff7eefde6c
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# makefile (from 'Makefile', line 124)
+USE_VERSION := false
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 15060
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 39)
+UNAME_S := Linux
+# environment
+DISPLAY = :0
+# environment
+CONDA_EXE = /home/sever/miniconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/sever/下载/GenericMakefile-master/cpp
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1171
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/sever
+# environment
+LD_LIBRARY_PATH = /opt/Qt5.12.2/5.12.2/gcc_64/lib::/usr/local/cuda/lib64
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/sever/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = sever
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = OqER0OLQY5ubSi1NSAX2P_7SSp5ztNtJZiCxZAro4EmaB4fPLyxo
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/sever/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 25)
+DLINK_FLAGS = 
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/sever
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/sever/snap/code/99
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3327f449-94fa-45c3-b84e-4fa15fe53f19.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = sever
+# environment
+SNAP_REVISION = 99
+# makefile
+.DEFAULT_GOAL := release
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 3)
+BIN_NAME := hello
+# makefile (from 'Makefile', line 27)
+DESTDIR = /
+# makefile (from 'Makefile', line 7)
+SRC_EXT = cpp
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# makefile (from 'Makefile', line 92)
+rwildcard = $(foreach d, $(wildcard $1*), $(call rwildcard,$d/,$2) $(filter $(subst *,%,$2), $d))
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 29)
+INSTALL_PREFIX = usr/local
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f47a2c42-1.68.1-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 23)
+RLINK_FLAGS = 
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+CUDA_HOME = :/usr/local/cuda
+# makefile (from 'Makefile', line 114)
+TIME_FILE = $(dir $@).$(notdir $@)_time
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = OqER0OLQY5ubSi1NSAX2P_7SSp5ztNtJZiCxZAro4EmaB4fPLyxo
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 64)
+CMD_PREFIX := @
+# makefile (from 'Makefile', line 17)
+DCOMPILE_FLAGS = -D DEBUG
+# makefile (from 'Makefile', line 5)
+CXX = g++
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 21)
+LINK_FLAGS = 
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 53)
+INSTALL_PROGRAM = $(INSTALL)
+# environment
+CONDA_PYTHON_EXE = /home/sever/miniconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 11)
+LIBS = 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 102)
+DEPS = $(OBJECTS:.o=.d)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 54)
+INSTALL_DATA = $(INSTALL) -m 644
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from 'Makefile', line 15)
+RCOMPILE_FLAGS = -D NDEBUG
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 100)
+OBJECTS = $(SOURCES:$(SRC_PATH)/%.$(SRC_EXT)=$(BUILD_PATH)/%.o)
+# makefile (from 'Makefile', line 115)
+START_TIME = date '+%s' > $(TIME_FILE)
+# environment
+LANG = C
+# environment
+VSCODE_PID = 15106
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+ 
+# Load=161/1024=16%, Rehash=0, Collisions=35/273=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 10488717): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+print-%:
+#  recipe to execute (from 'Makefile', line 44):
+	 @echo $*=$($*)
+
+/%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 220):
+	@echo "Compiling: $< -> $@"
+	@$(START_TIME)
+	$(CMD_PREFIX)$(CXX) $(CXXFLAGS) $(INCLUDES) -MP -MMD -c $< -o $@
+	@echo -en "\t Compile time: "
+	@$(END_TIME)
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all: /hello
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from 'Makefile', line 201):
+	@echo "Making symlink: $(BIN_NAME) -> $<"
+	@$(RM) $(BIN_NAME)
+	@ln -s $(BIN_PATH)/$(BIN_NAME) $(BIN_NAME)
+
+/hello: /hello.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from 'Makefile', line 207):
+	@echo "Linking: $@"
+	@$(START_TIME)
+	$(CMD_PREFIX)$(CXX) $(OBJECTS) $(LDFLAGS) -o $@
+	@echo -en "\t Link time: "
+	@$(END_TIME)
+
+.PHONY: release debug dirs install uninstall clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 187):
+	@echo "Removing $(DESTDIR)$(INSTALL_PREFIX)/bin/$(BIN_NAME)"
+	@$(RM) $(DESTDIR)$(INSTALL_PREFIX)/bin/$(BIN_NAME)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-01 22:32:47
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'Makefile', line 72)
+debug: CXXFLAGS :=  -std=c++11 -Wall -Wextra -g -D DEBUG
+# makefile (from 'Makefile', line 73)
+debug: LDFLAGS := $(subst ,,  )
+# makefile (from 'Makefile', line 79)
+debug: BIN_PATH := bin/debug
+# makefile (from 'Makefile', line 78)
+debug: BUILD_PATH := build/debug
+debug: dirs
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=4/32=12%, Rehash=0, Collisions=6/10=60%
+#  recipe to execute (from 'Makefile', line 164):
+	@echo "Beginning debug build"
+	@$(START_TIME)
+	@$(MAKE) all --no-print-directory
+	@echo -n "Total build time: "
+	@$(END_TIME)
+
+dirs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 174):
+	@echo "Creating directories"
+	@mkdir -p $(dir $(OBJECTS))
+	@mkdir -p $(BIN_PATH)
+
+# makefile (from 'Makefile', line 70)
+release: CXXFLAGS :=  -std=c++11 -Wall -Wextra -g -D NDEBUG
+# makefile (from 'Makefile', line 71)
+release: LDFLAGS := $(subst ,,  )
+# makefile (from 'Makefile', line 77)
+release: BIN_PATH := bin/release
+# makefile (from 'Makefile', line 76)
+release: BUILD_PATH := build/release
+release: dirs
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=4/32=12%, Rehash=0, Collisions=6/10=60%
+#  recipe to execute (from 'Makefile', line 151):
+	@echo "Beginning release build"
+	@$(START_TIME)
+	@$(MAKE) all --no-print-directory
+	@echo -n "Total build time: "
+	@$(END_TIME)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	@echo "Deleting $(BIN_NAME) symlink"
+	@$(RM) $(BIN_NAME)
+	@echo "Deleting directories"
+	@$(RM) -r build
+	@$(RM) -r bin
+
+# Not a target:
+/hello.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+hello.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-01 22:32:47
+#  File has been updated.
+#  Successfully updated.
+
+/hello.o: hello.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'hello'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := /hello.o
+# automatic
+# % := 
+# automatic
+# * := hello
+# automatic
+# + := hello.cpp
+# automatic
+# | := 
+# automatic
+# < := hello.cpp
+# automatic
+# ^ := hello.cpp
+# automatic
+# ? := hello.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/32=12%
+#  recipe to execute (from 'Makefile', line 220):
+	@echo "Compiling: $< -> $@"
+	@$(START_TIME)
+	$(CMD_PREFIX)$(CXX) $(CXXFLAGS) $(INCLUDES) -MP -MMD -c $< -o $@
+	@echo -en "\t Compile time: "
+	@$(END_TIME)
+
+# makefile (from 'Makefile', line 80)
+install: BIN_PATH := bin/release
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 181):
+	@echo "Installing to $(DESTDIR)$(INSTALL_PREFIX)/bin"
+ 
+	@$(INSTALL_PROGRAM) $(BIN_PATH)/$(BIN_NAME) $(DESTDIR)$(INSTALL_PREFIX)/bin
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=5/62=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 204 B / avg = 7 B
+# current buf: size = 8162 B / used = 204 B / count = 27 / avg = 7 B
+
+# strcache performance: lookups = 78 / hit rate = 65%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=2/78=3%
+# Finished Make data base on Fri Jul  8 22:59:23 2022
+
+ 
